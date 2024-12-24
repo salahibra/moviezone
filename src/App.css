@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Loto&diplay=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Loto', sans-serif;
+}
+.home,
+.favourites,
+.trending,
+.coming-soon,
+.settings, 
+.logout {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-size: 3rem;
+    background-color: #060b26;
+}
